@@ -1,0 +1,23 @@
+[
+  {
+    "Id": "give_item",
+    "PossibleValues": {
+      "ItemId": [ "potion", "sword", "cloth scrap" ],
+      "Quantity": [ "$Integer" ]
+    }
+  },
+  {
+    "Id": "apply_status",
+    "PossibleValues": {
+      "Status": [ "blessed", "poisoned", "burned" ],
+      "Duration": [ "$Float" ]
+    }
+  },
+  {
+    "Id": "set_flag",
+    "PossibleValues": {
+      "FlagName": ["$String"],
+      "Value": [ "$Boolean" ]
+    }
+  }
+]

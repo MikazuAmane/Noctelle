@@ -1,0 +1,12 @@
+[
+	{
+		"Id": "Sophie",
+		"Name": "Sophie",
+		"Expressions": [ "neutral", "happy", "shocked", "sad" ]
+	},
+	{
+		"Id": "Marlene",
+		"Name": "Marlene",
+		"Expressions": [ "neutral", "angry", "smiling", "thinking", "sad" ]
+	}
+]

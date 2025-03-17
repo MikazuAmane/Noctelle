@@ -1,0 +1,7 @@
+[
+  { "Id": "left" },
+  { "Id": "right" },
+  { "Id": "center" },
+  { "Id": "center-left" },
+  { "Id": "center-right" }
+]
