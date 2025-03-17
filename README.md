@@ -1,3 +1,4 @@
+![alt text]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg](https://github.com/MikazuAmane/Noctelle/blob/main/Assets/NoctelleIcon.ico)?raw=true)
 # Noctelle
 A tool for crafting branching game dialogues with preset validation for characters, expressions, positions, and actions. JSON/XML Import/Export support.
 
