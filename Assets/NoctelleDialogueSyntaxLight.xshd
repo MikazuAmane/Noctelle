@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SyntaxDefinition name="NoctelleDialogue" extensions=".dlg" xmlns="http://icsharpcode.net/sharpdevelop/syntaxdefinition/2008">
+	<Color name="Branch" foreground="#6d0ea3" fontWeight="bold"/>
+	<Color name="Choice" foreground="#d74451" fontWeight="bold"/>
+	<Color name="Metadata" foreground="#de7900"/>
+	<Color name="String" foreground="#0306be"/>
+	<Color name="Action" foreground="#188300"/>
+	<Color name="Comment" foreground="#4f4f4f" />
+
+	<RuleSet ignoreCase="false">
+
+		<!-- Branch: #BranchName# -->
+		<Span color="Branch" begin="#" end="#" />
+
+		<!-- Choice: !- "Choice" > Branch -->
+		<Span color="Choice" begin="!-" end="\n" />
+
+		<!-- Dialogue metadata: Character(Expression, Position) -->
+		<Span color="Metadata">
+			<Begin>^\w+\s*\([^)]*\)</Begin>
+			<End>:</End>
+		</Span>
+
+		<!-- Quoted string -->
+		<Span color="String" begin="&quot;" end="&quot;" />
+
+		<!-- Action block: {give_item: ItemId=value, Quantity=1} -->
+		<Span color="Action" begin="\{" end="\}" />
+
+		<!-- Comment lines -->
+		<Span color="Comment" begin="//" end="\n" />
+
+	</RuleSet>
+</SyntaxDefinition>
